@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy GitHub Profile</title>
+    <style>
+        /* Cài đặt nền galaxy */
+        body {
+            background-image: url('https://i.pinimg.com/originals/a4/4c/24/a44c242994c236f9da140e358ebee5ac.jpg');
+            background-size: cover;
+            color: white;
+            font-family: Lexend;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Tạo hiệu ứng gradient cho phần header */
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: #00000099;
+            /* Mờ nền phía trên */
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* Section thông tin cá nhân */
+        .profile-info {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .profile-info h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .profile-info p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Section Social media */
+        .social-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-family: Lexend;
+            font-size: 1.5rem;
+            transition: 0.3s ease-in-out;
+        }
+
+        .social-links img {
+            width: 50px;
+            /* Điều chỉnh kích thước logo */
+            height: 50px;
+            /* Điều chỉnh kích thước logo */
+            vertical-align: middle;
+            transition: 0.3s ease-in-out;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #00000099;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-style: italic;
+        }
+
+        /* Các hiệu ứng trong suốt cho các phần tử */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header với tên và mô tả ngắn -->
+    <header class="fade-in">
+        <h1>Nguyen Trung Nghia</h1>
+        <p>Web Developer | Open Source Contributor | Space Enthusiast</p>
+    </header>
+
+    <!-- Thông tin cá nhân -->
+    <section class="profile-info fade-in">
+        <h2>About Me</h2>
+        <p>Hi there! I'm John, a passionate web developer with a love for space exploration. I enjoy building
+            open-source projects and learning new technologies. When I'm not coding, you can find me stargazing or
+            reading about the latest space missions.</p>
+    </section>
+
+    <!-- Liên kết mạng xã hội -->
+    <section class="social-links fade-in">
+        <h2>Find Me On</h2>
+        <a href="https://github.com/ybpisces192" target="_blank">
+            <img src="https://img.icons8.com/m_rounded/512/228BE6/github.png">
+        </a>
+        <a href="https://facebook.com/ybpisces" target="_blank">
+            <img src="https://get-picto.com/wp-content/uploads/2023/08/logo-facebook-blanc.webp">
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ & a little bit of space magic</p>
+    </footer>
+
+</body>
+
+</html>
